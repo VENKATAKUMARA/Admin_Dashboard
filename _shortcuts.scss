@@ -1,0 +1,169 @@
+//Display
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+//Justify Content
+.justify {
+    &-start {
+        justify-content: start;
+    }
+
+    &-end {
+        justify-content: end;
+    }
+
+    &-center {
+        justify-content: center;
+    }
+
+    &-between {
+        justify-content: space-between;
+    }
+
+    &-around {
+        justify-content: space-around;
+    }
+
+    &-evenly {
+        justify-content: space-evenly;
+    }
+}
+
+//Align Items
+.items {
+    &-start {
+        align-items: flex-start;
+    }
+
+    &-end {
+        align-items: flex-end;
+    }
+
+    &-center {
+        align-items: center;
+    }
+
+    &-baseline {
+        align-items: baseline;
+    }
+
+    &-stretch {
+        align-items: stretch;
+    }
+}
+
+//Text Align
+.text {
+    &-left {
+        text-align: left;
+    }
+
+    &-right {
+        text-align: right;
+    }
+
+    &-center {
+        text-align: center;
+    }
+
+    &-justify {
+        text-align: justify;
+    }
+
+    &-start {
+        text-align: start;
+    }
+
+    &-end {
+        text-align: end;
+    }
+}
+
+//Place Items
+.place-items {
+    &-start {
+        place-items: start;
+    }
+
+    &-end {
+        place-items: end;
+    }
+
+    &-center {
+        place-items: center;
+    }
+
+    &-baseline {
+        place-items: baseline;
+    }
+
+    &-stretch {
+        place-items: stretch;
+    }
+}
+
+//Gap 
+.gap {
+    &-10 {
+        gap: 10px;
+    }
+
+    &-20 {
+        gap: 20px;
+    }
+
+    &-30 {
+        gap: 30px;
+    }
+}
+
+//Width
+.w {
+    &-full {
+        width: 100%;
+    }
+    
+    &-310 {
+        width: 310px;
+    }
+}
+
+//Height
+.h {
+    &-screen {
+        height: 100vh;
+    }
+}
+
+//Shrink
+.shrink {
+    flex-shrink: 1;
+
+    &-0 {
+        flex-shrink: 0;
+    }
+}
+
+//for Info
+.text {
+    &-orange {
+        color: $orange-600;
+    }
+
+    &-violet {
+        color: $violet-600;
+    }
+
+    &-emerald {
+        color: $emerald-600;
+    }
+
+    &-purble {
+        color: $purple-600;
+    }
+}
